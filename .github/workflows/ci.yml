@@ -25,6 +25,6 @@ jobs:
 
       - name: Run tests
         run: npm test
-      
-      - name: Simular despliegue
-        run: echo "Despliegue simulado exitosamente"
+
+      - name: Build
+        run: npm run ci && npm run build 
