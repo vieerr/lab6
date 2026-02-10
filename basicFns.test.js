@@ -16,7 +16,7 @@ describe('multiplica', () => {
 
 describe('divide', () => {
     test('should divide two positive numbers', () => {
-        expect(divide(10, 2)).toBe(5);
+        expect(divide(10, 2)).toBe(5)
     });
     test('should return Infinity when dividing by zero', () => {
         expect(divide(5, 0)).toBe(Infinity);
